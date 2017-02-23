@@ -52,3 +52,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['(:num)/a1'] = 'a1/phoneNum/$1';
+$route['(:num)/a2'] = 'a2/phoneNum/$1';
+$route['(:num)/a3'] = 'a3/phoneNum/$1';
